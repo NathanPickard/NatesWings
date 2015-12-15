@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nate\'s Wings</string>
+    <string name="customer_name">Customer name</string>
+    <string name="order_page_header">Chicken Wing Order Page</string>
+    <string name="sauces">Sauces:</string>
+    <string name="hickory_bbq">Hickory BBQ</string>
+    <string name="honey_chipotle">Honey chipotle</string>
+    <string name="teriyaki">Teriyaki</string>
+    <string name="buffalo">Buffalo</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">0</string>
+    <string name="order">Order</string>
+    <string name="order_instructions">Enter your name, pick your sauces,
+        and then choose your quantity.  Each sauce is $2 and wings are $1 for 2</string>
+    <string name="thank_you">Thank you for your order!</string>
+</resources>
