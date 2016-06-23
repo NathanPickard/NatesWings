@@ -158,8 +158,14 @@ public class MainActivity extends AppCompatActivity {
                                       boolean addHoneyChipotle, boolean addTeriyaki,
                                       boolean addBuffalo) {
         String priceMessage = "Name: " + name;
+        if (addHickoryBBQ == true || addHoneyChipotle == true || addTeriyaki == true || addBuffalo == true) {
+            priceMessage += "\nSauces chosen:";
+        }
+        else {
+            priceMessage += "\nSauces chosen: None";
+        }
         if (addHickoryBBQ == true) {
-            priceMessage += "\nHickory BBQ? " + addHickoryBBQ;
+            priceMessage += "\nHickory BBQ";
         }
         if (addHoneyChipotle == true) {
             priceMessage += "\nHoney Chipotle? " + addHoneyChipotle;
@@ -170,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
         if (addBuffalo == true) {
             priceMessage += "\nBuffalo? " + addBuffalo;
         }
-        priceMessage += "\nQuantity: " + quantity;
+        priceMessage += "\n# of wings: " + quantity;
         priceMessage += "\nTotal: $" + price;
         priceMessage += "\n" + getString(R.string.thank_you);
         return priceMessage;
