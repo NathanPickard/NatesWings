@@ -30,7 +30,7 @@ public class OrderSummaryActivity extends AppCompatActivity {
         mConfirmOrderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(OrderSummaryActivity.this, "Order sent!", Toast.LENGTH_LONG).show();
+                Toast.makeText(OrderSummaryActivity.this, "Order sent!  Thank you for your business!", Toast.LENGTH_LONG).show();
 
                 /* Add intent for email
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
